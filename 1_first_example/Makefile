@@ -5,8 +5,7 @@ es1.x: es1.cpp
 
 .PHONY: clean xclean
 
-all: es1.x es1_omp.x es1_omp_critical.x es1_omp_sec.x
-
+all: es1.x
 clean:
 	rm *.out* *.e* core*.*
 
