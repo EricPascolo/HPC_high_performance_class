@@ -20,7 +20,7 @@ int main(int, char **)
     res = res*i;
   }
 
-  cout<<res<<"\n";
+  cout<<"RESULT = "<<res<<"\n";
 
 
 
